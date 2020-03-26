@@ -1,1 +1,347 @@
-{"_type":"export","__export_format":4,"__export_date":"2020-03-24T20:56:43.497Z","__export_source":"insomnia.desktop.app:v7.1.1","resources":[{"_id":"req_942099ede7b647d0aea958f1b15d7727","authentication":{},"body":{"mimeType":"application/json","text":"{\n\t\"id\": \"00635939\"\n}"},"created":1585080508978,"description":"","headers":[{"id":"pair_53800a19c37b45aa9142108494900c37","name":"Content-Type","value":"application/json"}],"isPrivate":false,"metaSortKey":-1585080508978,"method":"POST","modified":1585080646877,"name":"Create Session","parameters":[],"parentId":"fld_31090cb8e8a644b09201feb190dbdf5d","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingFollowRedirects":"global","settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"http://localhost:3333/sessions","_type":"request"},{"_id":"fld_31090cb8e8a644b09201feb190dbdf5d","created":1585080498030,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1585080498030,"modified":1585080498030,"name":"Session","parentId":"wrk_0c63455a87654e7fa7f596c128e0686e","_type":"request_group"},{"_id":"wrk_0c63455a87654e7fa7f596c128e0686e","created":1585073078206,"description":"","modified":1585083366445,"name":"API Requests Semana Omnistack","parentId":null,"_type":"workspace"},{"_id":"req_a114494cf92340cf8bfdebeb27e3cfef","authentication":{},"body":{},"created":1585080154785,"description":"","headers":[{"description":"","id":"pair_566ee0e59baa43b3bc199c1df6dd8351","name":"Authorization","value":"00635939"}],"isPrivate":false,"metaSortKey":-1585080154785,"method":"GET","modified":1585080189066,"name":"Get Profile","parameters":[],"parentId":"fld_b8540ce5b7e041cbbe25234c923fc9b1","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingFollowRedirects":"global","settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"http://localhost:3333/profile","_type":"request"},{"_id":"fld_b8540ce5b7e041cbbe25234c923fc9b1","created":1585080140061,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1585080140061,"modified":1585080197060,"name":"Profiles","parentId":"wrk_0c63455a87654e7fa7f596c128e0686e","_type":"request_group"},{"_id":"req_a8b5f33138464b03885350f6bf17d8d2","authentication":{},"body":{},"created":1585079198287,"description":"","headers":[],"isPrivate":false,"metaSortKey":-1585079198287,"method":"GET","modified":1585081099508,"name":"Get Incidents","parameters":[],"parentId":"fld_cda58cbd5f4a4658b173d36a9e5d5f67","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingFollowRedirects":"global","settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"http://localhost:3333/incidents","_type":"request"},{"_id":"fld_cda58cbd5f4a4658b173d36a9e5d5f67","created":1585078535172,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1585078535172,"modified":1585078535172,"name":"Incidents","parentId":"wrk_0c63455a87654e7fa7f596c128e0686e","_type":"request_group"},{"_id":"req_d4b6dd01c90d429daedb0a9bda900ad0","authentication":{},"body":{"mimeType":"application/json","text":"{\n\t\"title\": \"Caso 3\",\n\t\"description\": \"Detalhes do Caso\",\n\t\"value\": 100.50\n}"},"created":1585078545759,"description":"","headers":[{"id":"pair_0d9a55f668ce4139af05b40952eb25a8","name":"Content-Type","value":"application/json"},{"description":"","id":"pair_eeeeb7440dbe49968521d1988df03b10","name":"Authorization","value":"00635939"}],"isPrivate":false,"metaSortKey":-1585078545759,"method":"POST","modified":1585080181894,"name":"Create Incident","parameters":[],"parentId":"fld_cda58cbd5f4a4658b173d36a9e5d5f67","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingFollowRedirects":"global","settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"http://localhost:3333/incidents","_type":"request"},{"_id":"req_6941560c47be4b7c8841e1f21c1d9ab8","authentication":{},"body":{},"created":1585079736176,"description":"","headers":[{"description":"","id":"pair_eeeeb7440dbe49968521d1988df03b10","name":"Authorization","value":"00635939"}],"isPrivate":false,"metaSortKey":-1585078216920.5,"method":"DELETE","modified":1585079772305,"name":"Delete Incident","parameters":[],"parentId":"fld_cda58cbd5f4a4658b173d36a9e5d5f67","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingFollowRedirects":"global","settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"http://localhost:3333/incidents/1","_type":"request"},{"_id":"req_dbf1554c90294f18bc366599af2744c0","authentication":{},"body":{},"created":1585077888082,"description":"","headers":[],"isPrivate":false,"metaSortKey":-1585077888082,"method":"GET","modified":1585077897112,"name":"Get ONGs","parameters":[],"parentId":"fld_5fc64cf3c4724cc98e6e05be1b0ab2a6","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingFollowRedirects":"global","settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"http://localhost:3333/ongs","_type":"request"},{"_id":"fld_5fc64cf3c4724cc98e6e05be1b0ab2a6","created":1585077160841,"description":"","environment":{},"environmentPropertyOrder":null,"metaSortKey":-1585077160841,"modified":1585077160841,"name":"ONGs","parentId":"wrk_0c63455a87654e7fa7f596c128e0686e","_type":"request_group"},{"_id":"req_6f6c2297d4c74661b1271ecfdb027933","authentication":{},"body":{"mimeType":"application/json","text":"{\n\t\"name\": \"APAD2\",\n\t\"email\": \"gui.theodoro@gmail.com\",\n\t\"whatsapp\": \"00 0000-0000\",\n\t\"city\": \"Erechim\",\n\t\"uf\": \"RS\"\n}"},"created":1585077171489,"description":"","headers":[{"id":"pair_2bb78abcf09d44a49c4aa5b087131164","name":"Content-Type","value":"application/json"}],"isPrivate":false,"metaSortKey":-1585077171489,"method":"POST","modified":1585078371665,"name":"Create ONG","parameters":[],"parentId":"fld_5fc64cf3c4724cc98e6e05be1b0ab2a6","settingDisableRenderRequestBody":false,"settingEncodeUrl":true,"settingFollowRedirects":"global","settingRebuildPath":true,"settingSendCookies":true,"settingStoreCookies":true,"url":"http://localhost:3333/ongs","_type":"request"},{"_id":"env_c4f13626f09784834490650b7b74ac3be0e6a43d","color":null,"created":1585073078268,"data":{},"dataPropertyOrder":null,"isPrivate":false,"metaSortKey":1585073078268,"modified":1585073078268,"name":"Base Environment","parentId":"wrk_0c63455a87654e7fa7f596c128e0686e","_type":"environment"},{"_id":"jar_c4f13626f09784834490650b7b74ac3be0e6a43d","cookies":[],"created":1585073078273,"modified":1585073078273,"name":"Default Jar","parentId":"wrk_0c63455a87654e7fa7f596c128e0686e","_type":"cookie_jar"}]}
+{
+    "_type":"export",
+    "__export_format":4,
+    "__export_date":"2020-03-24T20:56:43.497Z",
+    "__export_source":"insomnia.desktop.app:v7.1.1",
+    "resources":[
+       {
+          "_id":"req_942099ede7b647d0aea958f1b15d7727",
+          "authentication":{
+ 
+          },
+          "body":{
+             "mimeType":"application/json",
+             "text":"{\n\t\"id\": \"00635939\"\n}"
+          },
+          "created":1585080508978,
+          "description":"",
+          "headers":[
+             {
+                "id":"pair_53800a19c37b45aa9142108494900c37",
+                "name":"Content-Type",
+                "value":"application/json"
+             }
+          ],
+          "isPrivate":false,
+          "metaSortKey":-1585080508978,
+          "method":"POST",
+          "modified":1585080646877,
+          "name":"Create Session",
+          "parameters":[
+ 
+          ],
+          "parentId":"fld_31090cb8e8a644b09201feb190dbdf5d",
+          "settingDisableRenderRequestBody":false,
+          "settingEncodeUrl":true,
+          "settingFollowRedirects":"global",
+          "settingRebuildPath":true,
+          "settingSendCookies":true,
+          "settingStoreCookies":true,
+          "url":"http://localhost:3333/sessions",
+          "_type":"request"
+       },
+       {
+          "_id":"fld_31090cb8e8a644b09201feb190dbdf5d",
+          "created":1585080498030,
+          "description":"",
+          "environment":{
+ 
+          },
+          "environmentPropertyOrder":null,
+          "metaSortKey":-1585080498030,
+          "modified":1585080498030,
+          "name":"Session",
+          "parentId":"wrk_0c63455a87654e7fa7f596c128e0686e",
+          "_type":"request_group"
+       },
+       {
+          "_id":"wrk_0c63455a87654e7fa7f596c128e0686e",
+          "created":1585073078206,
+          "description":"",
+          "modified":1585083366445,
+          "name":"API Requests Semana Omnistack",
+          "parentId":null,
+          "_type":"workspace"
+       },
+       {
+          "_id":"req_a114494cf92340cf8bfdebeb27e3cfef",
+          "authentication":{
+ 
+          },
+          "body":{
+ 
+          },
+          "created":1585080154785,
+          "description":"",
+          "headers":[
+             {
+                "description":"",
+                "id":"pair_566ee0e59baa43b3bc199c1df6dd8351",
+                "name":"Authorization",
+                "value":"00635939"
+             }
+          ],
+          "isPrivate":false,
+          "metaSortKey":-1585080154785,
+          "method":"GET",
+          "modified":1585080189066,
+          "name":"Get Profile",
+          "parameters":[
+ 
+          ],
+          "parentId":"fld_b8540ce5b7e041cbbe25234c923fc9b1",
+          "settingDisableRenderRequestBody":false,
+          "settingEncodeUrl":true,
+          "settingFollowRedirects":"global",
+          "settingRebuildPath":true,
+          "settingSendCookies":true,
+          "settingStoreCookies":true,
+          "url":"http://localhost:3333/profile",
+          "_type":"request"
+       },
+       {
+          "_id":"fld_b8540ce5b7e041cbbe25234c923fc9b1",
+          "created":1585080140061,
+          "description":"",
+          "environment":{
+ 
+          },
+          "environmentPropertyOrder":null,
+          "metaSortKey":-1585080140061,
+          "modified":1585080197060,
+          "name":"Profiles",
+          "parentId":"wrk_0c63455a87654e7fa7f596c128e0686e",
+          "_type":"request_group"
+       },
+       {
+          "_id":"req_a8b5f33138464b03885350f6bf17d8d2",
+          "authentication":{
+ 
+          },
+          "body":{
+ 
+          },
+          "created":1585079198287,
+          "description":"",
+          "headers":[
+ 
+          ],
+          "isPrivate":false,
+          "metaSortKey":-1585079198287,
+          "method":"GET",
+          "modified":1585081099508,
+          "name":"Get Incidents",
+          "parameters":[
+ 
+          ],
+          "parentId":"fld_cda58cbd5f4a4658b173d36a9e5d5f67",
+          "settingDisableRenderRequestBody":false,
+          "settingEncodeUrl":true,
+          "settingFollowRedirects":"global",
+          "settingRebuildPath":true,
+          "settingSendCookies":true,
+          "settingStoreCookies":true,
+          "url":"http://localhost:3333/incidents",
+          "_type":"request"
+       },
+       {
+          "_id":"fld_cda58cbd5f4a4658b173d36a9e5d5f67",
+          "created":1585078535172,
+          "description":"",
+          "environment":{
+ 
+          },
+          "environmentPropertyOrder":null,
+          "metaSortKey":-1585078535172,
+          "modified":1585078535172,
+          "name":"Incidents",
+          "parentId":"wrk_0c63455a87654e7fa7f596c128e0686e",
+          "_type":"request_group"
+       },
+       {
+          "_id":"req_d4b6dd01c90d429daedb0a9bda900ad0",
+          "authentication":{
+ 
+          },
+          "body":{
+             "mimeType":"application/json",
+             "text":"{\n\t\"title\": \"Caso 3\",\n\t\"description\": \"Detalhes do Caso\",\n\t\"value\": 100.50\n}"
+          },
+          "created":1585078545759,
+          "description":"",
+          "headers":[
+             {
+                "id":"pair_0d9a55f668ce4139af05b40952eb25a8",
+                "name":"Content-Type",
+                "value":"application/json"
+             },
+             {
+                "description":"",
+                "id":"pair_eeeeb7440dbe49968521d1988df03b10",
+                "name":"Authorization",
+                "value":"00635939"
+             }
+          ],
+          "isPrivate":false,
+          "metaSortKey":-1585078545759,
+          "method":"POST",
+          "modified":1585080181894,
+          "name":"Create Incident",
+          "parameters":[
+ 
+          ],
+          "parentId":"fld_cda58cbd5f4a4658b173d36a9e5d5f67",
+          "settingDisableRenderRequestBody":false,
+          "settingEncodeUrl":true,
+          "settingFollowRedirects":"global",
+          "settingRebuildPath":true,
+          "settingSendCookies":true,
+          "settingStoreCookies":true,
+          "url":"http://localhost:3333/incidents",
+          "_type":"request"
+       },
+       {
+          "_id":"req_6941560c47be4b7c8841e1f21c1d9ab8",
+          "authentication":{
+ 
+          },
+          "body":{
+ 
+          },
+          "created":1585079736176,
+          "description":"",
+          "headers":[
+             {
+                "description":"",
+                "id":"pair_eeeeb7440dbe49968521d1988df03b10",
+                "name":"Authorization",
+                "value":"00635939"
+             }
+          ],
+          "isPrivate":false,
+          "metaSortKey":-1585078216920.5,
+          "method":"DELETE",
+          "modified":1585079772305,
+          "name":"Delete Incident",
+          "parameters":[
+ 
+          ],
+          "parentId":"fld_cda58cbd5f4a4658b173d36a9e5d5f67",
+          "settingDisableRenderRequestBody":false,
+          "settingEncodeUrl":true,
+          "settingFollowRedirects":"global",
+          "settingRebuildPath":true,
+          "settingSendCookies":true,
+          "settingStoreCookies":true,
+          "url":"http://localhost:3333/incidents/1",
+          "_type":"request"
+       },
+       {
+          "_id":"req_dbf1554c90294f18bc366599af2744c0",
+          "authentication":{
+ 
+          },
+          "body":{
+ 
+          },
+          "created":1585077888082,
+          "description":"",
+          "headers":[
+ 
+          ],
+          "isPrivate":false,
+          "metaSortKey":-1585077888082,
+          "method":"GET",
+          "modified":1585077897112,
+          "name":"Get ONGs",
+          "parameters":[
+ 
+          ],
+          "parentId":"fld_5fc64cf3c4724cc98e6e05be1b0ab2a6",
+          "settingDisableRenderRequestBody":false,
+          "settingEncodeUrl":true,
+          "settingFollowRedirects":"global",
+          "settingRebuildPath":true,
+          "settingSendCookies":true,
+          "settingStoreCookies":true,
+          "url":"http://localhost:3333/ongs",
+          "_type":"request"
+       },
+       {
+          "_id":"fld_5fc64cf3c4724cc98e6e05be1b0ab2a6",
+          "created":1585077160841,
+          "description":"",
+          "environment":{
+ 
+          },
+          "environmentPropertyOrder":null,
+          "metaSortKey":-1585077160841,
+          "modified":1585077160841,
+          "name":"ONGs",
+          "parentId":"wrk_0c63455a87654e7fa7f596c128e0686e",
+          "_type":"request_group"
+       },
+       {
+          "_id":"req_6f6c2297d4c74661b1271ecfdb027933",
+          "authentication":{
+ 
+          },
+          "body":{
+             "mimeType":"application/json",
+             "text":"{\n\t\"name\": \"APAD2\",\n\t\"email\": \"gui.theodoro@gmail.com\",\n\t\"whatsapp\": \"00 0000-0000\",\n\t\"city\": \"Erechim\",\n\t\"uf\": \"RS\"\n}"
+          },
+          "created":1585077171489,
+          "description":"",
+          "headers":[
+             {
+                "id":"pair_2bb78abcf09d44a49c4aa5b087131164",
+                "name":"Content-Type",
+                "value":"application/json"
+             }
+          ],
+          "isPrivate":false,
+          "metaSortKey":-1585077171489,
+          "method":"POST",
+          "modified":1585078371665,
+          "name":"Create ONG",
+          "parameters":[
+ 
+          ],
+          "parentId":"fld_5fc64cf3c4724cc98e6e05be1b0ab2a6",
+          "settingDisableRenderRequestBody":false,
+          "settingEncodeUrl":true,
+          "settingFollowRedirects":"global",
+          "settingRebuildPath":true,
+          "settingSendCookies":true,
+          "settingStoreCookies":true,
+          "url":"http://localhost:3333/ongs",
+          "_type":"request"
+       },
+       {
+          "_id":"env_c4f13626f09784834490650b7b74ac3be0e6a43d",
+          "color":null,
+          "created":1585073078268,
+          "data":{
+ 
+          },
+          "dataPropertyOrder":null,
+          "isPrivate":false,
+          "metaSortKey":1585073078268,
+          "modified":1585073078268,
+          "name":"Base Environment",
+          "parentId":"wrk_0c63455a87654e7fa7f596c128e0686e",
+          "_type":"environment"
+       },
+       {
+          "_id":"jar_c4f13626f09784834490650b7b74ac3be0e6a43d",
+          "cookies":[
+ 
+          ],
+          "created":1585073078273,
+          "modified":1585073078273,
+          "name":"Default Jar",
+          "parentId":"wrk_0c63455a87654e7fa7f596c128e0686e",
+          "_type":"cookie_jar"
+       }
+    ]
+ }
